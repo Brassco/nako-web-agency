@@ -377,6 +377,15 @@ body {
   color: #fff;
 }
 
+.service_icon {
+  width: 3rem;
+  /* height: 30px; */
+}
+
+.service__img {
+  width: 3rem;
+}
+
 /*======== ABOUT ========*/
 .about__container {
   grid-template-columns: repeat(1, 1fr);
@@ -656,6 +665,10 @@ i {
   .about__img {
     width: 30rem;
   }
+
+  .service__img {
+    width: 7rem;
+  }
 }
 
 /* MEDIUM SCREENS */
@@ -680,6 +693,10 @@ i {
   .service_item {
     width: 14rem;
     height: 12rem;
+  }
+
+  .service__img {
+    width: 4rem;
   }
 
   .about_grid {
@@ -724,6 +741,10 @@ i {
 
   .about__img {
     width: 30rem;
+  }
+
+  .service__img {
+    width: 8rem;
   }
 }
 
